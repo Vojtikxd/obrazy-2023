@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+    cursor: default;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    max-width: 80vw;
+    margin: auto;
+    overflow: hidden;
+    background-color: dodgerblue;
+}
+
+.heading-1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+    text-align: center;
+    text-decoration: underline ;
+    text-decoration-color: yellow;
+}
+
+.heading-2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+
+.description {
+    margin: 1rem 0;
+    font-weight: 300;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.description:first-of-type {
+    margin-top: 3rem;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    display: flex;
+    background-color: #000;
+    color: #fff;
+    width: 9rem;
+    height: 2.5rem;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    margin-top: 3rem;
+    cursor: pointer;
+    font-weight: 300;
+    transition: all linear 0.2s;
+    border-radius: 100%;
+}
+
+.icon {
+    margin-left: 0.5rem;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo-description {
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+.button-container {
+    display: flex;
+    column-gap: 2rem;
+    margin: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo {
+    width: 65%;
+}
+.background-image {
+    position: fixed;
+    background-image: url(https://images.wallpaperscraft.com/image/single/vincent_van_gogh_the_starry_night_oil_117815_1920x1080.jpg);
+    filter: brightness(40%);
+}
